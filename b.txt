@@ -16,19 +16,6 @@ Enter same passphrase again:
 Your identification has been saved in /c/Users/chfangfang/.ssh/id_rsa.
 Your public key has been saved in /c/Users/chfangfang/.ssh/id_rsa.pub.
 The key fingerprint is:
-SHA256:HbV9pt2+tuqa5QMsUONJEsIgwbO5e7tdT6DYB5Eul0k 1035406717@qq.com
-The key's randomart image is:
-+---[RSA 2048]----+
-|.o..o. ..   .    |
-| o.  .o. + . o   |
-|  +  E  = + . . o|
-| o  o +. + .   =.|
-|  .. * .S o   . o|
-| .  = o .. o   . |
-|  .. o o .. ..  .|
-| . .. o o   +. ..|
-|  .oo.   . oo++o.|
-+----[SHA256]-----+
 
 chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest
 $ ^C
@@ -130,8 +117,8 @@ warning: LF will be replaced by CRLF in a.txt.
 The file will have its original line endings in your working directory
 
 chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest/test-project (master)
-$ git commit -m 'diercitijiaoÉÏµÛ '
-[master 7a0a13a] diercitijiaoÉÏµÛÊÇ
+$ git commit -m 'diercitijiaoä¸Šå¸ '
+[master 7a0a13a] diercitijiaoä¸Šå¸æ˜¯
  1 file changed, 10 insertions(+)
 
 chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest/test-project (master)
@@ -235,10 +222,10 @@ $ git remote add origin https://github.com/chfangfang/project.git
 
 chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest/test-project (master)
 $ git push -u origin master
-fatal: protocol '¡®https' is not supported
+fatal: protocol 'â€˜https' is not supported
 
 chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest/test-project (master)
-$ git remote add origin ¡®git@github.com:chfangfang/project.git'
+$ git remote add origin â€˜git@github.com:chfangfang/project.git'
 > ^C
 
 chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest/test-project (master)
@@ -247,7 +234,7 @@ fatal: remote origin already exists.
 
 chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest/test-project (master)
 $ git push -u origin master
-fatal: protocol '¡®https' is not supported
+fatal: protocol 'â€˜https' is not supported
 
 chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest/test-project (master)
 $ git clone git@github.com:chfangfang/project.git
@@ -268,7 +255,7 @@ chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest/test-project (master)
 $ git add a.txt
 
 chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest/test-project (master)
-$ git commit -m 'µÚ¶ş´Î²âÊÔÌá½»github'
+$ git commit -m 'ç¬¬äºŒæ¬¡æµ‹è¯•æäº¤github'
 On branch master
 Untracked files:
         project/
@@ -281,7 +268,7 @@ fatal: remote origin already exists.
 
 chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest/test-project (master)
 $  git push -u origin master
-fatal: protocol '¡®https' is not supported
+fatal: protocol 'â€˜https' is not supported
 
 chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest/test-project (master)
 $ ^C
@@ -430,14 +417,14 @@ chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest/test-project/project (master)
 $ git add README.md
 
 chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest/test-project/project (master)
-$ git commit -m 'ÇëÇó ºÏ²¢'
+$ git commit -m 'è¯·æ±‚ åˆå¹¶'
 On branch master
 Your branch is up to date with 'origin/master'.
 
 nothing to commit, working tree clean
 
 chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest/test-project/project (master)
-$ git commit -m "ÇëÇóºÏºÏ²¢"
+$ git commit -m "è¯·æ±‚åˆåˆå¹¶"
 On branch master
 Your branch is up to date with 'origin/master'.
 
@@ -457,7 +444,7 @@ From github.com:chfangfang/project
 fatal: refusing to merge unrelated histories
 
 chfangfang@DESKTOP-1K0PII8 MINGW64 /f/GitTest/test-project/project (master)
-$ git commit -m  "ÇëÇóºÏºÏ²¢"
+$ git commit -m  "è¯·æ±‚åˆåˆå¹¶"
 On branch master
 Your branch and 'origin/master' have diverged,
 and have 4 and 2 different commits each, respectively.
